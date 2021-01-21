@@ -3,16 +3,16 @@ if($_POST)
 {
 require('constant.php');
     
-    $user_name      = filter_var($_POST["full_name"], FILTER_SANITIZE_STRING);
+    $user_name      = filter_var($_POST["fullname"], FILTER_SANITIZE_STRING);
     $user_email     = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
 	$user_phone     = filter_var($_POST["phone"], FILTER_SANITIZE_STRING);
-	$user_state     = filter_var($_POST["state"], FILTER_SANITIZE_EMAIL);
+	$user_state     = filter_var($_POST["state"], FILTER_SANITIZE_STRING);
 	$user_bundle     = filter_var($_POST["bundle"], FILTER_SANITIZE_STRING);
 	// $user_Jbundle     = filter_var($_POST["Jamb_bundle"], FILTER_SANITIZE_STRING);
     // $content   = filter_var($_POST["comments"], FILTER_SANITIZE_STRING);
     
     if(empty($user_name)) {
-		$empty[] = "<b>Name</b>";		
+		$empty[] = "<b>Full Name</b>";		
 	}
 	if(empty($user_email)) {
 		$empty[] = "<b>Email</b>";
@@ -64,7 +64,7 @@ require('constant.php');
 	    $output = json_encode(array('type'=>'message', 'text' => 'Hi '.$user_name .', thank you for the message. We will get back to you shortly.'));
 	    die($output);
 	} else {
-	    $output = json_encode(array('type'=>'error', 'text' => 'Unable to send email, please contact'.SENDER_EMAIL));
+	    $output = json_encode(array('type'=>'error', 'text' => 'Unable to send email, please contact'.$toEmail));
 	    die($output);
 	}
 }
