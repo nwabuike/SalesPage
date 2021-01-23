@@ -57,7 +57,7 @@ require('constant.php');
 	$mailBody = "User Name: " . $user_name . "\n";
 	$mailBody .= "User Email: " . $user_email . "\n";
 	$mailBody .= "Phone: " . $user_phone . "\n";
-	$mailBody .= "State: " . $user_state . "\n";
+	$mailBody .= "Address: " . $user_state . "\n";
 	$mailBody .= "Bundle-Waec: " . $user_bundle_w . "\n";
 	$mailBody .= "Bundle-Jamb: " . $user_bundle_j . "\n";
 

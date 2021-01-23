@@ -114,7 +114,7 @@
                     <div class="row">
                         <div class="input-field col s12">
                             <input id="state" type="text" name="state" class="validate" required>
-                            <label for="state">State Of Delivery</label>
+                            <label for="state">Enter Your Full Address including the city and state</label>
                         </div>
 
                     </div>
