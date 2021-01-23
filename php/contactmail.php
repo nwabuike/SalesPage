@@ -7,8 +7,8 @@ require('constant.php');
     $user_email     = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
 	$user_phone     = filter_var($_POST["phone"], FILTER_SANITIZE_STRING);
 	$user_state     = filter_var($_POST["state"], FILTER_SANITIZE_STRING);
-	$user_bundle     = filter_var($_POST["bundle"], FILTER_SANITIZE_STRING);
-	// $user_Jbundle     = filter_var($_POST["Jamb_bundle"], FILTER_SANITIZE_STRING);
+	$user_bundle_w     = filter_var($_POST["bundle_waec"], FILTER_SANITIZE_STRING);
+	$user_bundle_j    = filter_var($_POST["bundle_jamb"], FILTER_SANITIZE_STRING);
     // $content   = filter_var($_POST["comments"], FILTER_SANITIZE_STRING);
     
     if(empty($user_name)) {
@@ -23,9 +23,9 @@ require('constant.php');
 	if(empty($user_state)) {
 		$empty[] = "<b>State</b>";
 	}
-	if(empty($user_bundle)) {
-		$empty[] = "<b>Bundle</b>";
-	}
+	// if(empty($user_bundle_w) || ($user_bundle_j)) {
+	// 	$empty[] = "<b>Please Choose any bundle u want to a for is </b>";
+	// }
 	
 	if(!empty($empty)) {
 		$output = json_encode(array('type'=>'error', 'text' => implode(", ",$empty) . ' Required!'));
@@ -58,13 +58,14 @@ require('constant.php');
 	$mailBody .= "User Email: " . $user_email . "\n";
 	$mailBody .= "Phone: " . $user_phone . "\n";
 	$mailBody .= "State: " . $user_state . "\n";
-	$mailBody .= "Bundle: " . $user_bundle . "\n";
+	$mailBody .= "Bundle-Waec: " . $user_bundle_w . "\n";
+	$mailBody .= "Bundle-Jamb: " . $user_bundle_j . "\n";
 
 	if (mail($toEmail, "Book Order", $mailBody, $mailHeaders)) {
 	    $output = json_encode(array('type'=>'message', 'text' => 'Hi '.$user_name .', thank you for the message. We will get back to you shortly.'));
 	    die($output);
 	} else {
-	    $output = json_encode(array('type'=>'error', 'text' => 'Unable to send email, please contact'.$toEmail));
+	    $output = json_encode(array('type'=>'error', 'text' => 'Unable to send email, please contact '.$toEmail));
 	    die($output);
 	}
 }

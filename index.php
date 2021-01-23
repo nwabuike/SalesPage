@@ -62,7 +62,8 @@
                     "email": $('input[name="email"]').val(),
                     "phone": $('input[name="phone"]').val(),
                     "state": $('input[name="state"]').val(),
-                    "bundle": $('select[name="bundle"]').val(),
+                    "bundle_waec": $('select[name="bundle_waec"]').val(),
+                    "bundle_jamb": $('select[name="bundle_jamb"]').val(),
                     "g-recaptcha-response": $('textarea[id="g-recaptcha-response"]').val()
                 },
                 success: function(response) {
@@ -120,7 +121,7 @@
                     <div class="row">
                         <div class="input-field col s12 m6">
                             <h4 style="text-align: center; color: red;">WAEC Bundle</h4>
-                            <select class="browser-default" name="bundle">
+                            <select class="browser-default" name="bundle_waec">
                                 <option value="" disabled selected>Choose your Bundle</option>
                                 <option value="waec_Science_Bundle" data-icon="images/sample-1.jpg">Science Bundle
                                     &#8358;9,500</option>
@@ -133,7 +134,7 @@
                         </div>
                         <div class="input-field col s12 m6">
                             <h4 style="text-align: center; color: red;">JAMB Bundle</h4>
-                            <select class="browser-default" name="bundle">
+                            <select class="browser-default" name="bundle_jamb">
                                 <option value="" disabled selected>Choose your Bundle</option>
                                 <option value="Jamb_Science_Bundle" data-icon="images/sample-1.jpg" class="left">Science
                                     Bundle &#8358;7,500</option>
