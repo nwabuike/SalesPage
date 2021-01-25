@@ -369,7 +369,7 @@
                 <div class="row">
                     <form class="col s12" method="POST" name="contactform" id="contactform">
                         <div class="card" style="text-align: center; color: red;">
-                            <h2>Prep50 Books</h2>
+                            <h3>Prep50 Books</h3>
                             <p>Please fill the following information</p>
                         </div>
                         <div class="row">
