@@ -136,7 +136,7 @@
         </div>
         <div class="row">
             
-            <div class="blue lighten-5 col s12 m1 l12">
+            <div class="blue lighten-5 col s12 m12 l12">
                 
                 <div class="card">
                     <div class="card-content">
@@ -147,7 +147,7 @@
                         <p>We will share with you a previously held secret method for exam preparation, used only by one of the Maltina Teacher of the year to prepare her students for guaranteed success.</p>
                         <div class="row">
                             <div class="col s6">
-                                <img class="responsive-img" style="height: 320px; width: 100%;" src="img/ckc.jpg" />
+                                <img class="responsive-img" src="img/ckc.jpg" />
                             </div>
                             <div class="col s6">
                                 <img class="responsive-img" src="img/sch.jpg" />
