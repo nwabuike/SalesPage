@@ -1,5 +1,17 @@
-body {
-    overflow-x: hidden;
+
+body{
+	margin:0;
+	padding:0;
+	list-style:none;
+    letter-spacing:0.2px;
+   
+}
+p,ul{
+    font-size: 20px;
+}
+h4,h5{
+    color: red;
+    font-size: 40px;
 }
 .g-recaptcha {
     float: right;
