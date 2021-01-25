@@ -173,7 +173,7 @@
                         <p>The truth is all SS3 student will buy a past question someday. But what it should be is that all in SS1 should buy and start using Prep50 past questions for their studies. You have to be a not so organized person not to be amazed on how we structured our book.</p>
                         <div class="row">
                             <h5>Available Subjects in WAEC</h5>
-                            <div class="col s4">
+                            <div class="col s4 m4 l4">
                                 <ul>
                                     <li><b style="color: red;">*</b> English Language</li>
                                     <li><b style="color: red;">*</b> Mathematics</li>
@@ -189,19 +189,16 @@
 
                                 <p>Back cover for all the waec subjects arranged</p>
                             </div>
-                            <div class="col s2">
+                            <div class="col s2 m4 l4">
                                 <img src="img/eng_ssce.jpg">
                             </div>
-                            <div class="col s2">
+                            <div class="col s2 m4 l4">
                                 <img src="img/waec_maths.jpg">
-                            </div>
-                            <div class="col s2">
-                                <img src="img/lit_ssce.jpg">
                             </div>
                         </div>
                         <div class="row">
                             <h5>Available Subjects in JAMB</h5>
-                            <div class="col s4">
+                            <div class="col s4 m4 l4">
 
                                 <ul>
                                     <li><b style="color: red;">*</b> English Language</li>
@@ -215,14 +212,11 @@
                                     <li><b style="color: red;">*</b> CRS</li>
                                 </ul>
                             </div>
-                            <div class="col s2">
+                            <div class="col s2 m4 l4">
                                 <img src="img/eng_waec.jpg">
                             </div>
-                            <div class="col s2">
+                            <div class="col s2 m4 l4">
                                 <img src="img/jamb_physics.jpg">
-                            </div>
-                            <div class="col s2">
-                                <img src="img/gov_jamb.jpg">
                             </div>
                         </div>
 
@@ -243,12 +237,12 @@
 
                         <h5>Pricing</h5>
                         <ul>
-                            <li>JAMB bundle is <7,500</li>
-                            <li>WAEC bundle is 9,500</li>
+                            <li><b>JAMB bundle is &#8358;7,500</b></li>
+                            <li><b>WAEC bundle is &#8358;9,500</b></li>
                         </ul>
                         <p>Pay before delivery to:</p>
                         <p>Deacons Educational Consult & Data Centre</p>
-                        <p>Zenith Bank - 1016993496.</p>
+                        <p><b>Zenith Bank - 1016993496.</b></p>
 
                         <h5>Procedure: </h5>
                         <p>When you place an order for any of the bundle, we will give you a call to confirm the subjects you need within the bundle as they may vary from one student to another. </p>
