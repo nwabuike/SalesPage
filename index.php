@@ -85,15 +85,16 @@
           <a href="#!" class="brand-logo center">Prep50 Books</a>
         </div>
       </nav> -->
+      <nav style="margin-bottom: 20px; margin-top: 10px;">
+        <div class="nav-wrapper">
+            <h3 class="center">Prep50 Books</h3>
+        </div>
+    </nav>
+    
     <div class="container">
-        <nav style="margin-bottom: 20px; margin-top: 10px;">
-            <div class="nav-wrapper">
-                <h3 class="center">Prep50 Books</h3>
-            </div>
-        </nav>
         <div class="row">
             <div class="slider">
-                <ul class="slides">
+                <ul class="slides" style="height: 200px;">
                     <li>
                         <img src="img/bio_ssce.jpg"> <!-- random image -->
                         <!-- <div class="caption center-align">
@@ -109,7 +110,7 @@
                     </div> -->
                     </li>
                     <li>
-                        <img src="img/gen.jpg"> <!-- random image -->
+                        <img src="img/chem_jamb.jpg"> <!-- random image -->
                         <!-- <div class="caption right-align">
                       <h3>Right Aligned Caption</h3>
                       <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
@@ -125,12 +126,12 @@
                 </ul>
             </div>
         </div>
-        <div class="row">
+        <div class="section">
 
-            <div class="blue lighten-5 col s12 m12 l12">
+            <div class="row">
 
-                <div class="card">
-                    <div class="card-content">
+                <div class="">
+                    <div class="">
 
                         <!-- <span class="card-title" style="color: red;">Secret to A1 in WAEC and 350 in JAMB exam revealed…..No Malpractice</span> -->
                         <h4 style="color: red;">Secret to A1 in WAEC and 350 in JAMB exam revealed…..No Malpractice</h4>
@@ -173,7 +174,19 @@
                         <p>The truth is all SS3 student will buy a past question someday. But what it should be is that all in SS1 should buy and start using Prep50 past questions for their studies. You have to be a not so organized person not to be amazed on how we structured our book.</p>
                         <div class="row">
                             <h5>Available Subjects in WAEC</h5>
-                            <div class="col s4 m4 l4">
+                            <div class="col s3">
+                                <img class="responsive-img" src="img/eng_ssce.jpg">
+                            </div>
+                            <div class="col s3">
+                                <img class="responsive-img" src="img/waec_maths.jpg">
+                            </div>
+                            <div class="col s3">
+                                <img class="responsive-img" src="img/gov_waec.jpg">
+                            </div>
+                            <div class="col s3">
+                                <img class="responsive-img" src="img/che_ssce.jpg">
+                            </div>
+                            <div class="col s12">
                                 <ul>
                                     <li><b style="color: red;">*</b> English Language</li>
                                     <li><b style="color: red;">*</b> Mathematics</li>
@@ -189,16 +202,27 @@
 
                                 <p>Back cover for all the waec subjects arranged</p>
                             </div>
-                            <div class="col s2 m4 l4">
-                                <img src="img/eng_ssce.jpg">
+                            
+                        </div>
+                        <div class="row">
+                            
+                            <h5>Available Subjects in JAMB</h5>
+                            
+                            <div class="col s3 m3 l3">
+                                <img class="responsive-img" src="img/eng_waec.jpg">
                             </div>
-                            <div class="col s2 m4 l4">
-                                <img src="img/waec_maths.jpg">
+                            <div class="col s3 m3 l3">
+                                <img class="responsive-img" src="img/gov_jamb.jpg">
+                            </div>
+                            <div class="col s3 m3 l3">
+                                <img class="responsive-img" src="img/lit_ssce.jpg">
+                            </div>
+                            <div class="col s3 m3 l3">
+                                <img class="responsive-img" src="img/jamb_physics.jpg">
                             </div>
                         </div>
                         <div class="row">
-                            <h5>Available Subjects in JAMB</h5>
-                            <div class="col s4 m4 l4">
+                            <div class="col s12">
 
                                 <ul>
                                     <li><b style="color: red;">*</b> English Language</li>
@@ -212,12 +236,7 @@
                                     <li><b style="color: red;">*</b> CRS</li>
                                 </ul>
                             </div>
-                            <div class="col s2 m4 l4">
-                                <img src="img/eng_waec.jpg">
-                            </div>
-                            <div class="col s2 m4 l4">
-                                <img src="img/jamb_physics.jpg">
-                            </div>
+                            
                         </div>
 
                         <p> Back cover for all the JAMB subjects arranged</p>
@@ -240,8 +259,8 @@
                             <li><b>JAMB bundle is &#8358;7,500</b></li>
                             <li><b>WAEC bundle is &#8358;9,500</b></li>
                         </ul>
-                        <p>Pay before delivery to:</p>
-                        <p>Deacons Educational Consult & Data Centre</p>
+                        <p><b>Pay before delivery to:</b></p>
+                        <p><b>Deacons Educational Consult & Data Centre</b></p>
                         <p><b>Zenith Bank - 1016993496.</b></p>
 
                         <h5>Procedure: </h5>
@@ -425,6 +444,14 @@
             </div>
         </div>
         </div> 
+        <footer class="page-footer">
+       
+            <div class="footer-copyright">
+              <div class="container">
+              © 2021 Copyright Prep50Books
+              </div>
+            </div>
+          </footer>
 </body>
 
 </html>

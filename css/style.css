@@ -4,8 +4,13 @@ body{
 	padding:0;
 	list-style:none;
     letter-spacing:0.2px;
+    min-height: 100vh;
+    flex-direction: column;
    
 }
+  main {
+    flex: 1 0 auto;
+  }
 p,ul{
     font-size: 20px;
     font-family: Gill Sans Extrabold, sans-serif;
