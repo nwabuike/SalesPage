@@ -183,7 +183,7 @@
                         <p>The truth is all SS3 student will buy a past question someday. But what it should be is that all in SS1 should buy and start using Prep50 past questions for their studies. You have to be a not so organized person not to be amazed on how we structured our book.</p>
                         <div class="row">
                             <h5>Available Subjects in WAEC</h5>
-                            <div class="col s3">
+                            <div class="col s4">
                                 <ul>
                                     <li><b style="color: red;">*</b> English Language</li>
                                     <li><b style="color: red;">*</b> Mathematics</li>
@@ -208,13 +208,10 @@
                             <div class="col s2">
                                 <img src="img/lit_ssce.jpg">
                             </div>
-                            <div class="col s2">
-                                <img src="img/che_ssce.jpg">
-                            </div>
                         </div>
                         <div class="row">
                             <h5>Available Subjects in JAMB</h5>
-                            <div class="col s3">
+                            <div class="col s4">
 
                                 <ul>
                                     <li><b style="color: red;">*</b> English Language</li>
@@ -236,9 +233,6 @@
                             </div>
                             <div class="col s2">
                                 <img src="img/gov_jamb.jpg">
-                            </div>
-                            <div class="col s2">
-                                <img src="img/bio_jamb.jpg">
                             </div>
                         </div>
 
