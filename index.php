@@ -12,33 +12,23 @@
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Facebook Pixel Code -->
-    <script>
-        ! function(f, b, e, v, n, t, s) {
-            if (f.fbq) return;
-            n = f.fbq = function() {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n;
-            n.push = n;
-            n.loaded = !0;
-            n.version = '2.0';
-            n.queue = [];
-            t = b.createElement(e);
-            t.async = !0;
-            t.src = v;
-            s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '682339515822965');
-        fbq('track', 'PageView');
-    </script>
-    <noscript>
-        <img height="1" width="1" src="https://www.facebook.com/tr?id=682339515822965&ev=PageView
-    &noscript=1" />
-    </noscript>
-    <!-- End Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '686693168688131');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=686693168688131&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
     <!-- <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="js/jquery-2.2.2.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
@@ -241,8 +231,8 @@
                         <h5>IN the Pack</h5>
                         <b>What you get</b>
                         <ul>
-                            <li>Jamb = four books</li>
-                            <li>Waec = 6/7 books</li>
+                            <li><b>Jamb = four books</b></li>
+                            <li><b>Waec = 6/7 books</b></li>
                             <li>1 Office file for credentials</li>
                             <li>I free past questions booklet that contains Civic Education, Marketing, Data processing, Computer Studies</p>
 
@@ -253,7 +243,7 @@
 
                         <h5>Pricing</h5>
                         <ul>
-                            <li>JAMB bundle is 7,500</li>
+                            <li>JAMB bundle is <7,500</li>
                             <li>WAEC bundle is 9,500</li>
                         </ul>
                         <p>Pay before delivery to:</p>
