@@ -46,7 +46,7 @@
                 $('#loader-icon').show();
                 $("#contactform").show();
                 $.ajax({
-                    url: "./php/contactmail.php",
+                    url: "./php/get_connection.php",
                     type: "POST",
                     dataType: 'json',
                     data: {
@@ -408,7 +408,7 @@
                                     <option value="waec_commercial_Bundle" data-icon="images/yuna.jpg">Commercial Bundle
                                         &#8358;9,500</option>
                                 </select>
-                            </div>
+                            </div><input type="hidden" name="reg_user" value="true"/>
                             <div class="input-field col s12 m6">
                                 <h4 style="text-align: center; color: red;">JAMB Bundle</h4>
                                 <select class="browser-default" name="bundle_jamb">
