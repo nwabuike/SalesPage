@@ -22,4 +22,4 @@ VALUES('".$user_name."', '".$user_email."', '".$user_phone."', '".$user_state."'
 } else {
     echo "Please fill Name and Email";
 }
-require_once("contact_mail.php");
+// require_once("contact_mail.php");
