@@ -1,6 +1,6 @@
 <?php
 require_once("db_connection.php");
-if ((isset($_POST['fullname']) && $_POST['fullname'] != '') && (isset($_POST['email']) && $_POST['email'] != '')) {
+if ((isset($_POST['fullname']) && $_POST['fullname'] != '') && (isset($_POST['phone']) && $_POST['phone'] != '')) {
     
     $user_name = $conn->real_escape_string($_POST['fullname']);
     $user_email = $conn->real_escape_string($_POST['email']);

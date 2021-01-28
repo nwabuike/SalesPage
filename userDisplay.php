@@ -43,16 +43,16 @@ if (mysqli_num_rows($result) >
     0) { ?>
     <div class="container" style="margin-bottom: 50px">
       <div class="">
-        <table>
+        <table class="">
           <thead>
             <tr>
-              <th>S/N</th>
-              <th>Name</th>
-              <th>Email</th>
-              <th>Phone Number</th>
-              <th>Address</th>
-              <th>Waec Bundle</th>
-              <th>Jamb Bundle</th>
+              <th data-field="id">S/N</th>
+              <th data-field="name">Name</th>
+              <th data-field="email">Email</th>
+              <th data-field="phone">Phone Number</th>
+              <th data-field="address">Address</th>
+              <th data-field="waec">Waec Bundle</th>
+              <th data-field="jamb">Jamb Bundle</th>
             </tr>
           </thead>
           <?php
@@ -79,7 +79,7 @@ $i++;
         <?php
             }
             else{
-                echo "No result found";
+                echo "<h3>No result found</h3>";
             }
             ?>
       </div>

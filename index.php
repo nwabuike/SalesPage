@@ -378,13 +378,13 @@
                                 <label for="full_name">Full Name</label>
                             </div>
                             <div class="input-field col s6">
-                                <input id="phone_number" name="phone" type="text" class="validate" required>
+                                <input id="phone_number" name="phone" type="tel" class="validate" required>
                                 <label for="phone_number">Phone Number</label>
                             </div>
                         </div>
                         <div class="row">
                             <div class="input-field col s12">
-                                <input id="email" name="email" type="email" class="validate" required>
+                                <input id="email" name="email" type="email" class="validate">
                                 <label for="email">Email</label>
                             </div>
                         </div>
