@@ -43,7 +43,7 @@ if (mysqli_num_rows($result) >
     0) { ?>
     <div class="container" style="margin-bottom: 50px">
       <div class="">
-        <table class="">
+        <table class="table">
           <thead>
             <tr>
               <th data-field="id">S/N</th>
@@ -53,6 +53,7 @@ if (mysqli_num_rows($result) >
               <th data-field="address">Address</th>
               <th data-field="waec">Waec Bundle</th>
               <th data-field="jamb">Jamb Bundle</th>
+              <th data-field="jamb">Date and Time</th>
             </tr>
           </thead>
           <?php
@@ -69,6 +70,7 @@ while($row = mysqli_fetch_array($result)) {
               <td><?php echo $row["address"]; ?></td>
               <td><?php echo $row["waecBundle"]; ?></td>
               <td><?php echo $row["jambBundle"]; ?></td>
+              <td><?php echo $row["created_at"]; ?></td>
             </tr>
           </tbody>
           <?php
